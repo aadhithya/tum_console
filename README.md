@@ -22,5 +22,7 @@ optional arguments:
   --version, -v         Version Info.
   ```
   
+  ## Demo
+  ![screenshot](demo.png)
   ## Licence 
   [GNU GPL v3.0](LICENSE)
