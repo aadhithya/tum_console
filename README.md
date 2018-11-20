@@ -19,4 +19,4 @@ optional arguments:
   ```
   
   ## Licence 
-  MIT © [Aadhithya Sankar](github.com/aadhithya).
+  [GNU GPL v3.0](LICENSE)
