@@ -4,7 +4,11 @@ A Port of some features of the TUM Campus app to the terminal! (WIP)
 ## Setup
 * clone the repo.
 * run `python tum_console.py [options]` 
-* Create an alias if you want to access it globally.
+* Create an alias if you want to access the easily.
+
+## Features
+* Search for study rooms at Bibliothek Mathe/Informatik(bibMI), Magistrale Mathe/Informatik(mi) and Garching Hochbruck(hbrk) with --room-info/-ri
+* Get the day's menu at the mensa you want. (WIP)
 
 ## Usage
 ```
