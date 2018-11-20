@@ -26,16 +26,14 @@ def show_room_info(rooms):
 def main(args=None):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--room-info','-ri',help='Room Info. Tells you which rooms are free. Args: [bibMI, MI, Hbrk]')
+    parser.add_argument('--room-info','-ri',help='Room Info. Tells you which rooms are free.',choices= ['bibMI', 'MI', 'Hbrk','mi','hbrk','bibmi'])
     parser.add_argument('--version','-v',help='Version Info.', action='store_true')
     parser.add_argument('--mensa-menu','-mm',help='Returns today\'s Menu at given Mensa.', nargs='+')
 
     args = parser.parse_args()
 
-    print(args)
 
     if args.room_info:
-        print('room info')
         ri = RoomInfo()
         rooms = ri.get_room_info(where=args.room_info)
         show_room_info(rooms)
