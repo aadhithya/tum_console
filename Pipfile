@@ -1,0 +1,19 @@
+[[source]]
+
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.python.org/simple"
+
+
+[packages]
+
+simplejson = "*"
+requests = "*"
+colr = "*"
+texttable = "*"
+
+[requires]
+python_full_version = "3"
+
+[dev-packages]
+
